@@ -1,10 +1,14 @@
 .watermarkBox {
   position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   overflow: hidden;
 }
+.watermarkRow {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  /* flex-wrap: wrap;
+  justify-content: space-between; */
+} 
 #showWatermarkBox {
   position: relative;
   z-index: 9999;
