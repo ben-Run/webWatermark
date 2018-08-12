@@ -10,7 +10,9 @@ web watermmark for common js
 
 直接使用 webWatermark.js 即可
 
-备注
+因为水印盒子的z-index 是 9999，所以页面内容z-index设为9999即可
 
 如果有弹出层，只需要弹出层z-index 大于9999 即可
+
+
 
