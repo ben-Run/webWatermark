@@ -5,9 +5,12 @@ web watermmark for common js
 支持图片水印、文字水印
 ![图片说明1](https://github.com/ben-Run/webWatermark/blob/master/watermark/src/img/20180812-01.png?raw=true)
 ![图片说明1](https://github.com/ben-Run/webWatermark/blob/master/watermark/src/img/20180812-02.png?raw=true)
+
 使用
+
 直接使用 webWatermark.js 即可
 
 备注
+
 如果有弹出层，只需要弹出层z-index 大于9999 即可
 
