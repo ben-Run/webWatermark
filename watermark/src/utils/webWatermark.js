@@ -26,6 +26,8 @@ export function watermark (options) {
   options = typeof options === 'string' ? {txt: options} : options
   if (document.querySelector('.watermarkBox')) {
     document.querySelector('.watermarkBox').remove()
+    // 如需兼容IE 使用removeChild 即可 Edge 不需要
+    // document.body.removeChild(document.querySelector('。watermarkBox'))
   }
   const defaultSettings = Object.assign({}, defaults, options)
   let watermarkWidth = 0 // 区域
